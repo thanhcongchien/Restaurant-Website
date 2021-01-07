@@ -3,6 +3,8 @@
 `this is Restaurant website that you can book a table or order foods and drink via email`
 **download source and run index.html file on your own local**
 
+**Link Demo:**  https://thanhcongchien.github.io/Restaurant-Website/index.html
+
 ``` Here are some illustrations ```
 
 **Home Page**
