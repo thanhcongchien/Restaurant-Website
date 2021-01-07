@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+    <meta name="description" content="" >
+    <meta name="author" content="" >
+    <title>Tables - SB Admin</title>
+    <link href="../css/styles-admin.css" rel="stylesheet" >
+    <link href="../css/style-admin.css" rel="stylesheet" >
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.datatables.net/1.10.20/css/dataTables.bootstrap4.min.css" rel="stylesheet"
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js"
+        crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+        <a class="navbar-brand" href="">Master Chef</a><button class="btn btn-link btn-sm order-1 order-lg-0"
+            id="sidebarToggle" href="#"><i class="fas fa-bars"></i></button><!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+            <div class="input-group">
+                <input class="form-control" id="myInput" type="text" placeholder="Search for..." aria-label="Search"
+                    aria-describedby="basic-addon2" />
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </form>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Core</div>
+                        <a class="nav-link" href="index.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                           Food Management
+                        </a>
+                        <a class="nav-link" href="index-drink.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                           Drink Management
+                        </a>
+                        <a class="nav-link" href="index-booking.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Booking Management
+                        </a>
+                        <a class="nav-link" href="index-order.html">
+                            <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                            Order Management
+                        </a>
+                        <div class="collapse" id="collapsePages" aria-labelledby="headingTwo"
+                            data-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link collapsed" href="#" data-toggle="collapse"
+                                    data-target="#pagesCollapseAuth" aria-expanded="false"
+                                    aria-controls="pagesCollapseAuth">Authentication
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div></a>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div id="layoutSidenav_content">
+
+            <div class="product">
+                <div class="title" style="background: white;">Drink Management</div>
+
+                <button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"><i class=" fas fa-plus mr-2"></i>Create</button>
+                <table class="table ">
+                    <thead class="thead-light text-center">
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Img</th>
+                            <th>Price</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-center" id="drink-admin">
+                       
+                    </tbody>
+
+                </table>
+            </div>
+        </div>
+        <!-- Button trigger modal -->
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add a new product</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="form-row">
+                            <div class="col-12">
+                                <input class="form-control" type="text" id="id" placeholder="id">
+                            </div>
+                            <div class="col-12 mt-3">
+                                <input class="form-control" type="text" id="name" placeholder="name">
+                            </div>
+                            <div class="col-12 mt-3">
+                                <input class="form-control" type="file" id="img" placeholder="image">
+                            </div>
+                            <div class="col-12 mt-3">
+                                <input class="form-control" type="number" id="price" placeholder="price">
+                            </div>
+                            <a class="btn btn-outline-danger mt-3" href="" onclick="addDrink()">Add</a>
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary exit" data-dismiss="modal">Exit</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="updateDrink" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Update</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-row">
+                            <div class="col-12">
+                                <input class="form-control" type="text" id="iddd" placeholder="id">
+                            </div>
+                            <div class="col-12 mt-3">
+                                <input class="form-control" type="text" id="namedd" placeholder="name">
+                            </div>
+                            <div class="col-12 mt-3">
+                                <input class="form-control" type="file" id="imgdd" placeholder="image">
+                            </div>
+                            <div class="col-12 mt-3">
+                                <input class="form-control" type="number" id="pricedd" placeholder="Price">
+                            </div>
+                            <div id="submit" >Update</div>
+                        </form>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"
+    crossorigin="anonymous"></script>
+<script src="../js/scripts.js"></script>
+<script src="../js/booking.js"></script>
+<script src="../js/admin-drink.js"></script>
+<script src="../js/product.js"></script>
+<script src="../js/script.js"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
+<!-- <script src="assets/demo/datatables-demo.js"></script> -->
+
+</html>
+
+

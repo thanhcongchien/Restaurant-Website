@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Master Chef</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <link rel="stylesheet" href="./assets/css/style-1.css"> -->
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/Article-List.css">
+    <link rel="stylesheet" href="../assets/css/Bootstrap-Payment-Form.css">
+    <link rel="stylesheet" href="../assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
+    <link rel="stylesheet" href="../assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="../assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="../assets/css/Navigation-with-Search.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- <link rel="stylesheet" href="assets/css/Projects-Horizontal.css"> -->
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 200
+
+        })
+    </script>
+    <script src="./assets/js/script-1.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+        <title>Chien Offical Site | See Menu & Order for Delivery & Pickup</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-search " id="navbar" >
+        <div class="container navbar-all"><a class="navbar-brand" href="#" > 
+            <div class="logo">
+                <img src="./assets/img/img/logo.png" alt=""  onclick="window.open('https://www.facebook.com/chienheo293/')"> 
+            </div>
+        </a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link active home" href="index.html" onclick="HOME()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>HOME</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link menu" href="#" onclick="MENU2()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>MENU</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link testimonials" href="#" onclick="TESTIMONIALS2()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>TESTIMNIALS</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                </ul>
+                <!-- <form class="form-inline mr-auto" target="_self" style="margin-left: 100px;">
+                    <div class="form-group" ></div>><label for="search-field"><i class="fa fa-search"></i></label><input class="form-control search-field" type="search" id="search-field" name="search" placeholder="Search..."></div>
+                </form><a class="btn btn-light action-button"  role="button" href="#">SEARCH</a> -->
+            </div>
+            <a class="ml-3 mr-3" href="./cart.html">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+        </div>
+    </nav>
+    <div id="promo">
+        <div class="jumbotron">
+            <h1 id="lead1" class="lead1"><em>MasterChef</em><br></h1>
+            <p>Kitchen for Expats in Da Nang<br></p>
+            <p><a class="btn btn-primary jumboOtron-cta-buttons glf-button"data-toggle="modal" data-target="#myModal" role="button" >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                &nbsp;Table&nbsp;Reservations<br></a>
+                <a class="btn btn-primary jumbotron-cta-buttons glf-button1  role="button" onclick="delivery2()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>&nbsp;Dekivery<br></a></p>
+        </div>
+    
+    </div>
+
+
+
+    <!-- <div class="container email-notification" style="margin-top:51px;">
+        <div id="form-div" style="margin-right:50px;margin-left:50px;">
+            <form method="post">
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-12">
+                            <h1 class="text-center" style="font-family:Armata, sans-serif;font-size:30px; color: rgb(0,0,0);"><strong>
+                                Reconfirm Information </strong></h1>
+                        </div>
+                    </div>
+                    <hr id="hr" style="background-color:#c3bfbf;">
+                </div>
+            </form>
+        </div>
+    </div> -->
+
+
+<!--     
+</form>
+    </div> -->
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div> -->
+        <div class="modal-body">
+            <div  id="book-form" class="contact-clean book-form1" >
+                <form   id="contact-form" method="POST" action="https://formspree.io/chien.thanh180201@vnuk.edu.vn" >
+                    <h2 class="text-center">BOOKING</h2>
+                    <hr id="hr" style="background-color:#c3bfbf;">
+        
+                        <!--https://formspree.io/FORM_ID-->
+                    <div class="form-row">  
+                        <div class="col-10 col-sm-10 col-md-8 offset-1 offset-sm-1 offset-md-2">
+                            <p style="font-family:Armata, sans-serif;font-size:22px; color: #495057;">Name:</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-10 col-sm-10 col-md-8 offset-1 offset-sm-1 offset-md-2"><input class="form-control" id="name" type="text" style="font-size:15px;font-family:Armata, sans-serif;" placeholder="Please enter your Name" name="name" required></div>
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="col-10 col-sm-10 col-md-8 offset-1 offset-sm-1 offset-md-2">
+                            <p style="font-family:Armata, sans-serif;font-size:22px; color:#495057;">Email:</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-10 col-sm-10 col-md-8 offset-1 offset-sm-1 offset-md-2"><input class="form-control " id="email" type="email" placeholder="Please enter your Email" name="email" name="_replyto" required></div>
+                    </div>
+                    <!-- <div class="form-row">
+                        <div class="col-9 col-sm-5 col-md-4 offset-1 offset-sm-4 offset-md-5"><button class="btn btn-warning" style="font-family:Armata, sans-serif;font-size:14px;color:rgb(0,0,0);" type="reset">Reset </button><button class="btn btn-success" id="submit-btn" style="font-family:Armata, sans-serif;font-size:14px;color:rgb(0,0,0);"
+                                type="submit">Send </button></div>
+                    </div> -->
+                    <i class="fa fa-hand-paper-o"></i>
+                    <select class="form-control order-later-people" id="people"><optgroup label="People"><option value="1" selected="">1 people</option><option value="2">2 people</option><option value="3">3 people</option></optgroup></select>
+                    <i class="fa fa-calendar-times-o"></i>
+                    <select class="form-control order-later-date" id="date"><optgroup label="Date"><option  value="Monday" selected="">Monday</option><option value="Saturday" selected="">Saturday</option><option value="Sunday">Sunday</option></optgroup></select>
+                        <i class="fa fa-clock-o"></i>
+                    <select class="form-control order-later-time" id="time"><optgroup label="Time"><option  value="8:00 a.m" selected="">8:00 a.m</option><option value="13:00 p.m">13:00 p.m</option><option value="20:00 p.m">20:00 p.m</option></optgroup></select>
+                            
+                    <div
+                         class="form-group"><i class="fas fa-comment-alt"></i><textarea class="form-control" id="mess" name="message" placeholder="Message ( If you have any questions or comments, please let us know)"  rows="14"></textarea></div>
+                         <div class="form-row">
+                        </div>
+            <div class="form-group"><button  class="btn btn-primary" value="Send" type="submit" onclick="Booking()">BOOK</button></div>
+            </form>
+            </div>   
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+        </div>
+      </div>
+    
+
+</div>
+    </div>
+    <br>
+
+
+
+        <!-- ----body -->
+        <div id="cart" class="container " style="height:auto; margin-bottom:8% ;">
+            <h3>CART</h3>
+            <div class="row">
+                <div class="col-8">
+                    <table class="table">
+                        <thead>
+                            <tr class='text-center'>
+                                <th>IMG
+                                </th>
+                                <th>Name
+                                </th>
+                                <th>Price
+                                </th>
+                                <th>Quantity
+                                </th>
+                                <th>Delete
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody class="table show-cart-1" id="tbl">
+                        </tbody>
+                    </table>
+                </div>
+
+
+
+                <div class="col-4">
+                    <div class="payment">
+                        <div class="price">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="price-text"><strong>Provisional:</strong> </div>
+    
+                                </div>
+    
+                                <div class="col-6 text-right">
+                                    <div class="mr-0">
+                                        <span class="total-cart total-1"></span>
+                                        <div class="d-inline">₫</div>
+                                    </div>
+                                </div>
+                                <div class="col-6 mt-4">
+                                    <div><strong>TOTAL:</strong> </div>
+    
+                                </div>
+                                <div class="col-6 mt-4 text-right">
+                                    <div class="mr-0">
+                                        <span class="total-cart total"></span>
+    
+                                        <div class="d-inline total">₫</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-3 button text-center">
+                            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#diachinhanhang">
+                               Countinue...
+                            </button>
+                        </div>
+                       
+                    </div>
+    
+    
+    
+    
+                </div>
+              
+    
+            </div>
+    
+    
+    
+        </div>
+
+
+         <!-- --- -->
+    <div class="modal fade" id="diachinhanhang" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" 
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" >
+        <div class="modal-content" style="width: 1220px;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Shipping Address</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- <form action="" method="get">
+                    <div class="form-row">
+                        <div class="form-group col-6">
+                            <label for="">Họ Tên Người Nhận</label>
+                            <input type="text" class="form-control" id="inputnguoinhan">
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="">Số điện thoại</label>
+                            <input type="number" class="form-control" id="inputsdt">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-8">
+                            <label for="">Địa chỉ</label>
+                            <input type="text" class="form-control" id="inputdiachi">
+
+                        </div>
+                        <div class="form-group col-4">
+                            <label for="">Hình thức thanh toán</label>
+                            <select class="form-control" name="" id="inputthanhtoan" class="btn"
+                                style="border: 1px black solid;">
+                                <option selected> Chọn hình thức thanh toán</option>
+
+                                <option value="1">Thanh toán bằng tiền mặt</option>
+                                <option value="2">InternetBanking</option>
+                                <option value="3">VisaCard</option>
+                                <option value="4">Paypal</option>
+                            </select>
+
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="">Tỉnh - Thành phố</label>
+                            <select id="inputtinh" class="form-control">
+                                <option selected>Chọn</option>
+                                <option value="1">Hà Nội</option>
+                                <option value="2">Đà Nẵng</option>
+                                <option value="3">Hồ Chí Minh</option>
+                                <option value="4">Bình Định</option>
+                                <option value="5">Quảng Ngãi</option>
+                            </select>
+
+
+
+                        </div>
+                        <div class="form-group col-6">
+                            <label for="">Email</label>
+                            <input type="email" class="form-control" id="inputemail">
+                        </div>
+                        <div class=" form-group col-12">
+                            <label for="">Ghi chú</label>
+                            <textarea class="form-control" name="" id="inputghichu" cols="30" rows="3"></textarea>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+
+                        <button onclick="infoCart()" type="button" class="btn btn-primary" data-toggle="modal"
+                            data-target="#xacnhan" data-dismiss="modal">Xác Nhận đặt hàng</button>
+                    </div>
+                </form> -->
+                <form id="contactForm" action="https://formspree.io/thnhcngchin@gmail.com"  method="POST"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
+                    name="to" value="email@awebsite.com">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div id="successfail"></div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <form id="delivery-form-email" method="POST" action="https://formspree.io/thnhcngchin@gmail.com" >
+
+                    <div class="col-12 col-md-6" id="message">
+                        <h2 class="h4"><i class="fas fa-utensil-spoon"></i>Masterchef</h2>
+
+                        <div class="form-group"><label for="from-name" >Name</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-user-friends"></i></span></div><input class="form-control"  type="text" id="fullname" name="name"   required  placeholder="Full Name"></div>
+                        </div>
+                        <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-envelope"></i></span></div><input class="form-control" type="text" id="emailaddress" name="email" name="_replyto" required  placeholder="Email Address"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-phone">Phone</label><span class="required-input">*</span>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="phone" name="phone" required  placeholder="Primary Phone"></div>
+                                </div>
+                            </div>
+                            <!-- <div class="form-group">
+                                <label for="">District</label>
+                                <div class="input-group">
+                                <select id="district" class="form-control">
+                                    <option selected>Area</option>
+                                    <option value="Hải Châu">Hải Châu</option>
+                                    <option value="Thanh Khê">Thanh Khê</option>
+                                    <option value="Liên Chiểu">Liên Chiểu</option>
+                                    <option value="Ngũ Hành Sơn">Ngũ Hành Sơn</option>
+                                    <option value="Sơn Trà">Sơn Trà</option>
+                                </select>
+                            </div>
+                            
+                            </div> -->
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-calltime">District</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span></div><select class="form-control" id="district" name="district">
+                                            <option selected>Area</option>
+                                            <option value="Hải Châu">Hải Châu</option>
+                                            <option value="Thanh Khê">Thanh Khê</option>
+                                            <option value="Liên Chiểu">Liên Chiểu</option>
+                                            <option value="Ngũ Hành Sơn">Ngũ Hành Sơn</option>
+                                            <option value="Sơn Trà">Sơn Trà</option>
+                                            </select></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-calltime">Choose form of payment</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text">
+                                            <i class="fas fa-money-bill-wave-alt"></i>
+                                        </span></div><select class="form-control" id="payment" name="payment">
+                                            <option selected>Choose form of payment</option>     
+                                                <option value="Payment in cash">Payment in cash</option>
+                                                <option value="InternetBanking">InternetBanking</option>
+                                                <option value="VisaCard">VisaCard</option>
+                                                <option value="Paypal">Paypal</option>
+                                            </select></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group"><i class="fas fa-map-marked"></i><label for="from-comments"> Address</label><textarea class="form-control" id="address" name="address" placeholder="Enter Your Address" rows="5"></textarea></div>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
+                                <div class="col"><button class="btn btn-primary btn-block" type="submit"  value="Send" onclick="Ordering()">Order<i class="fa fa-chevron-circle-right"></i></button></div>
+                            </div>
+                        </div>
+                        <hr class="d-flex d-md-none">
+                        </form>
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+                        <h2 class="h4"><i class="fa fa-location-arrow"></i> Locate Us</h2>
+                        <div class="form-row">
+                            <div class="col-12">
+                                <div class="static-map"><a rel="noopener" href="https://www.google.com/maps/place/VNUK+Institute+for+Research+and+Executive+Education,+the+University+of+Danang/@16.071074,108.2181047,17z/data=!3m1!4b1!4m5!3m4!1s0x31421836b5f0b5d5:0xf372c18deace6db!8m2!3d16.0710689!4d108.2202934"
+                                        target="_blank"> <img class="img-fluid" src="./assets/img/ggmap.jpg" alt="Google Map of Masterchef"></a></div>
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <h2 class="h4"><i class="fa fa-user"></i> Our Info</h2>
+                                <div><span><strong>Chien</strong><br></span></div>
+                                <div><span>thanhcongchien.email@awebsite.com</span></div>
+                                <div><span>www.masterchef.com</span></div>
+                                <hr class="d-sm-none d-md-block d-lg-none">
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
+                                <div><span><strong>VNUK</strong></span></div>
+                                <div><span>158A Le Loi Street</span></div>
+                                <div><span>Hai Chau Dist, Da Nang City</span></div>
+                                <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                                <hr class="d-sm-none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- ----- -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+               
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body modal-success">
+                <div class="text-center text-danger animate__animated animate__bounce"
+                    style="border-bottom: 2px rgba(255, 0, 0, 0.144) solid;">
+                    <h4> Đặt hàng thành công </h4>
+                </div>
+                <div class="text-right">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="index.html" class="clear-cart btn btn-outline-danger">Xong</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --modal-- -->
+
+<div class="modal fade" id="xacnhan" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            
+            <div class="modal-body modal-success">
+                <div class="text-center text-danger animate__animated animate__bounce"
+                    style="border-bottom: 2px rgba(255, 0, 0, 0.144) solid;">
+                    <h4> Order Information </h4>
+              </div>  
+
+                <div class="animate__animated animate__backInRight">
+                    <div class="row col-7">
+                        
+                       <div class="col-4 text-primary">Name:</div>
+                       <div class="col-8" id="fullname1"></div>
+                        <div class="col-4 mt-2 text-primary">Phone:</div>
+                        <div class="col-8 mt-2" id="phone1"></div>
+                            <div class="col-4 mt-2 text-primary">Address:</div>
+                        <div class="col-8 mt-2" id="comment1"></div>
+                            <div class="col-4 mt-2 text-primary">Payment:</div>
+                        <div class="col-8 mt-2" id="payment1"></div>
+                       <div class="col-4 mt-2 text-primary">Email:</div>
+                        <div class="col-8 mt-2" id="email1"></div>
+                            <div class="col-4 mt-2 text-primary">Comment:</div>
+                        <div class="col-8 mt-2" id="total1"></div>
+                            <div class="col-4 mt-2 text-primary">Total:</div>
+                        <div class="col-8 mt-2">
+                            <span class="total-cart total-1"></span>
+                            Đ
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="text-right">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Hủy</button>
+                    <button class="btn btn-outline-danger text-right" data-dismiss="modal" data-toggle="modal"
+                        data-target="#login">Xác nhận đặt hàng</button>
+
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+    
+    <div class="container-fluid mt-5 mb-5" id="delivery-menu" style="display: none;">
+        <div class="container product">
+            <div class="h2 mb-5">MENU</div>
+            
+            <div class="h4 mb-5"><i class="fas fa-hamburger"></i> FOODS</div>
+
+            <div class="row" id="add-menu">
+
+            </div>
+            <br>
+            <br>
+            <div class="h4 mb-5"><i class="fas fa-coffee"></i> DRINKS</div>
+
+            <div class="row" id="add-menu2">
+
+            </div>
+            
+        </div>
+    
+    </div>
+
+
+    
+    
+    <div class="projects-horizontal menu-list" id="menu-list" style="display: none;" >
+        <div class="container menu">
+            <div class="intro">
+                <h2 class="text-center">Menu</h2>
+                <p class="text-center">Welcome to Master Chef</p>
+            </div>
+            <h3>SANDWICHES</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/sandwiches/hamsandwiches.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Ham Sandwich<br></h3>
+                            <h3 class="price">₫45,000<br></h3>
+                            <h5 class="description">Bacon/Ham - Lettuce - Tomato - Cheese - Homemade Mayonnaise<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/sandwiches/blatjpg.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">BLAT Sandwich
+                                <br></h3>
+                            <h3 class="price">₫54,000<br></h3>
+                            <h5 class="description">Bacon - Lettuce - Avocado - Tomato<br></h5>
+
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/sandwiches/avocado.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="price">Avocado Toast
+                                <br></h3>
+                            <h3 class="name">₫25,000<br></h3>
+                            <h5 class="description">Avocado - Peanut Butter<br></h5>
+
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/sandwiches/eggjpg.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Egg Benedict on Sandwich
+                                <br></h3>
+                            <h3 class="price"><strong>₫69,000</strong><br></h3>
+                            <h5 class="description">Bacon - Egg - avocado<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h3>SALAD</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/regular_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Regular Salad<br></h3>
+                            <h3 class="price">₫33,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/bacon_egg_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Bacon Egg Salad<br></h3>
+                            <h3 class="price">₫55,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/fantasy_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="price">Fantasy Salad<br></h3>
+                            <h3 class="name">₫49,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/tuna_salaf.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Tunna Salad<br></h3>
+                            <h3 class="price"><strong>₫55,000</strong><br></h3>
+                            <h5 class="description">Tuna Regular SaladCress<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Bagutte</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/bacon_egg_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Mecury Bagutte<br></h3>
+                            <h3 class="price"><strong>₫55,000</strong><br></h3>
+                            <h5 class="description">Egg Blue Cheese Tomato Lettuce<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/bacon_egg_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Mecury Bagutte<br></h3>
+                            <h3 class="price">₫55,000<br></h3>
+                            <h5 class="description">Egg Blue Cheese Tomato Lettuce<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/regular_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Chicken Bagutte<br></h3>
+                            <h3 class="price">₫59,000<br></h3>
+                            <h5 class="description">Chicken Mushroom White onion Cheese<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>COFFEE</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/capuchino.png"></a></div>
+                        <div class="col">
+                            <h3 class="name">Cappuccino<br></h3>
+                            <h3 class="price">₫38,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/americano.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Americano<br></h3>
+                            <h3 class="price">₫22,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/machiato.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Machiato<br></h3>
+                            <h3 class="price">₫38,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>BEER</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/bubwiser.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Bubweiser<br></h3>
+                            <h3 class="price">₫15,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img  class="img-fluid" src="assets/img/strongbow.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Strongbow<br></h3>
+                            <h3 class="price">₫25,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/tiger.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Tiger<br></h3>
+                            <h3 class="price">₫20,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href="#"><img class="img-fluid" src="assets/img/heniken.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Heniken<br></h3>
+                            <h3 class="price">₫20,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="article-list" id="article-list" style="display: none;">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center"><br><em>Post Type Archives:&nbsp;Testimonials</em><br></h2>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a  onclick="window.open('https://www.facebook.com/chienheo293/')"><img class="img-fluid" src="assets/img/best-sandwich-in-da-nang.jpg"></a>
+                    <h3 class="name"><a href="https://broskafe.com/testimonial/lauren-s-the-best-quality-coffee-and-sandwich-in-da-nang/"><em>Lauren S.</em></a><br></h3>
+                    <p class="description">“Wow. Just wow. The best quality, price, and service hands down!” I have been a regular at Bro’s for about 8 months now and the quality and price have always been consistent. The owners are the nicest and most accommodating people.
+                        I can’t say enough good things about this place. My favourite is the BLAT […]<br><br></p><a class="action" onclick="window.open('https://www.facebook.com/chienheo293/')"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="https://www.facebook.com/chienheo293/"><img class="img-fluid" src="assets/img/BLAT-sandwich-review.png"></a>
+                    <h3 class="name"><a href="https://broskafe.com/testimonial/reginald-williams-blat-sandwich/"><em>Reginald Williams</em></a><br></h3>
+                    <p class="description">I had the BLAT sandwich, a hearty breakfast sandwich with bacon, lettuce, tomato, avocado and Swiss cheese on whole wheat toast. It was absolutely delicious. All ingredients were extremely fresh and the bacon was better quality bacon
+                        then most anywhere I’ve been in Danang. The seating is a bit of a bohemian mix of antiques […]<br><br></p><a class="action"  onclick="window.open('https://www.facebook.com/chienheo293/')"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"><a  onclick="window.open('https://www.facebook.com/chienheo293/')"><img class="img-fluid" src="assets/img/img/delivery-in-danang-600x450.jpg"></a>
+                    <h3 class="name"><a href="https://broskafe.com/testimonial/phil-manire/"><em>Phil Manire</em></a><br></h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action"  onclick="window.open('https://www.facebook.com/chienheo293/')"><i class="fa fa-arrow-circle-right"></i></a></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="footer-clean" id="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3><em>MasterChef</em><br></h3>
+                        <ul>
+                            <li><a href="tel:0779439284"><br><em>Kitchen for Expats</em>Masterchef RestaurantĐịa chỉ: 172 Trần Cao Vân - Thanh Khê - Đà NẵngPhone : 0779439284<br><br></a></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item" >
+                        <h3><em>About us</em><br></h3>
+                        <ul>
+                            <li><a href="#"><br>- Bro's Kafe was founded in June 2018 by 2 Bros sharing the same passion of opening a rendezvous spot for expats in Da Nang City. - Bro's Kafe serves Specialty Coffee 100% from coffee beans with honey-red processed. - Bro's Kafe is also well-known for good sandwiches, baguette, croissant and salad that have good value for quality and casual price. - Bro's Kafe is the first coffeeshop in Da Nang that serve Green Smoothie from spinach and fresh fruits - Bro's Kafe cooperate with Bellany Ice Cream to provide high quality ice-cream with many amazing flavour such as sorbet, salted caramel Bro's Kafe is proving that high value can be made from the simple. That's why Bro's Kafe is ranked one of the Top coffeeshop for expats in Da NangFANPAGE CHÚNG TÔI<br><br><br></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3><em>Contact Us</em><br></h3>
+                        <ul>
+                            <li><br>(8:30 a.m - 22:00 p.m)<br><br>
+                                <a href="tel:0779439284"><em>0779 439 284</em><br></a></li>
+                            <li><br><a href="mailto:chien.thanh180201@vnuk.edu.vn"><em>chien.thanh180201@vnuk.edu.vn</em></a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-md-3 item social"><a href="https://www.facebook.com/chienheo293/" target="_blank"><i class="icon ion-social-facebook"  ></i></a><a href="https://twitter.com/?lang=en" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/" target="_blank"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/" target="_blank"><i class="icon ion-social-instagram"></i></a>
+                    
+                            <div class="col-lg-3 col-sm-4 col-md-3 item fb-page" data-href="https://www.facebook.com/BOT-103679947827016/" data-tabs="timeline"
+                            data-width="360" data-height="200" data-small-header="false"
+                            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/BOT-103679947827016/" class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/BOT-103679947827016/">Master Chef +</a></blockquote>
+                        </div>
+                        <footer class="blockquote-footer">Fanpage</footer>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script type="text/template" id="cartT">
+        <% _.each(items, function (item) { %> <div class = "panel"> <h3> <%= item.name %> </h3>  <span class="label">
+      <%= item.count %> piece<% if(item.count > 1)
+      {%>s
+      <%}%> for <%= item.total %>₹</span > </div>
+      <% }); %>
+      </script>
+        <script src="../assets/js/admin.js"></script>
+    <script src="../assets/js/product.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  <!--using to send email-->
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>

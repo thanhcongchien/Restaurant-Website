@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Master Chef</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="./assets/css/Article-List.css">
+    <link rel="stylesheet" href="./assets/css/Bootstrap-Payment-Form.css">
+    <link rel="stylesheet" href="./assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="./assets/css/Contact-Form-v2-Modal--Full-with-Google-Map.css">
+    <link rel="stylesheet" href="./assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="./assets/css/Highlight-Phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <link rel="stylesheet" href="./assets/css/Navigation-with-Search.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+      <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="./assets/css/cart.css">
+
+
+    <!-- <link rel="stylesheet" href="assets/css/Projects-Horizontal.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/style-1.css"> -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 200
+
+        })
+    </script>
+    <script src="./assets/js/script-1.js"></script>
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+        <title>Chien Offical Site | See Menu & Order for Delivery & Pickup</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md navigation-clean-search " id="navbar" >
+        <div class="container navbar-all"><a class="navbar-brand" href="/index.html" > 
+            <div class="logo">
+                <img src="./assets/img/img/logo.png" alt=""  onclick="window.open('https://www.facebook.com/chienheo293/')"> 
+            </div>
+        </a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navcol-1">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" role="presentation"><a class="nav-link active home" href="index.html" onclick="HOME()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>HOME</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link menu" href="#" onclick="MENU()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>MENU</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link testimonials" href="#" onclick="TESTIMONIALS()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>TESTIMNIALS</a></li>
+                    <li class="nav-item" role="presentation"></li>
+                    
+                </ul>
+            </div>
+            <a class="ml-3 mr-3" href="#" onclick="cart()">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+        </div>
+    </nav>
+    <div id="promo">
+        <div class="jumbotron">
+            <h1 id="lead1" class="lead1"><em>MasterChef</em><br></h1>
+            <p>Kitchen for Expats in Da Nang<br></p>
+            <p><a class="btn btn-primary jumboOtron-cta-buttons glf-button"data-toggle="modal" data-target="#myModal" role="button" >
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                &nbsp;Table&nbsp;Reservations<br></a>
+                <a class="btn btn-primary jumbotron-cta-buttons glf-button1  role="button" onclick="delivery()" >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>&nbsp;Dekivery<br></a></p>
+        </div>
+    
+        <div class="carousel slide" data-ride="carousel" id="carousel-1"  >
+            <div class="carousel-inner" role="listbox" >
+                <div class="carousel-item active"><img class="w-100 d-block" src="assets/img/img/youjeen-cho-sBKLiRiunK0-unsplash.jpg" alt="Slide Image"></div>
+                <div class="carousel-item"><img class="w-100 d-block" src="assets/img/img/dan-gold-4_jhDO54BYg-unsplash.jpg" alt="Slide Image"></div>
+                <div class="carousel-item"><img class="w-100 d-block" src="assets/img/img/pixzolo-photography-BiWb1Y8wpZk-unsplash.jpg" alt="Slide Image"></div>
+            </div>
+            <div ><a class="carousel-control-prev   "  href="#carousel-1" role="button" data-slide="prev"><span class="carousel-control-prev-icon"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button"
+                    data-slide="next"><span class="carousel-control-next-icon"></span><span class="sr-only">Next</span></a></div>
+            <ol class="carousel-indicators" >
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </div>
+
+        <!--button go to top-->
+<!--         <button onclick="topFunction()" id="myBtnTop" title="Go to top" style="width: 400;" style="display: none">Top</button> -->
+    <!--cart-->
+    <section class="container content-section" id="cart" style="display: none;">
+        <h2 class="section-header" style="text-align: center;">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price"  id="total">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" id="purchase" data-toggle="modal" data-target="#diachinhanhang" type="button" onclick="infoCart()">PURCHASE</button>
+    </section>
+
+    <div class="modal fade" id="diachinhanhang" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" 
+    aria-hidden="true">
+    <div class="modal-dialog modal-lg" >
+        <div class="modal-content" style="width: 1220px;">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Shipping Address</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form id="contactForm" action="https://formspree.io/thnhcngchin@gmail.com"  method="POST"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
+                    name="to" value="email@awebsite.com">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div id="successfail"></div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <form id="delivery-form-email" method="POST" action="https://formspree.io/thnhcngchin@gmail.com" >
+
+                    <div class="col-12 col-md-6" id="message">
+                        <h2 class="h4"><i class="fas fa-utensil-spoon"></i>Masterchef</h2>
+
+                        <div class="form-group"><label for="from-name" >Name</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-user-friends"></i></span></div><input class="form-control"  type="text" id="fullname" name="name"   required  placeholder="Full Name"></div>
+                        </div>
+                        <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-envelope"></i></span></div><input class="form-control" type="text" id="emailaddress" name="email" name="_replyto" required  placeholder="Email Address"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-phone">Phone</label><span class="required-input">*</span>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="phone" name="phone" required  placeholder="Primary Phone"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-district">District</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span></div>
+                                        <select class="form-control" id="district" name="district" required>
+                                            <option value="">Area</option>
+                                            <option value="Hải Châu">Hải Châu</option>
+                                            <option value="Thanh Khê">Thanh Khê</option>
+                                            <option value="Liên Chiểu">Liên Chiểu</option>
+                                            <option value="Ngũ Hành Sơn">Ngũ Hành Sơn</option>
+                                            <option value="Sơn Trà">Sơn Trà</option>
+                                            </select></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-total">Total: <class class="total1" name="total1" id="total1"  ></class></label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text">
+                                            <i class="fas fa-money-bill-wave"></i>
+                                        </span></div> 
+                                        <input type="text" class="form-control" name="bill" id="bill" value=""  readonly="readonly"   placeholder="" required>
+                                            </div>
+                                        
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-payment">Choose form of payment</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text">
+                                            <i class="fas fa-credit-card"></i>
+                                        </span></div><select class="form-control" id="payment" name="payment" required>
+                                            <option value="">Choose form of payment</option>     
+                                                <option value="Payment in cash">Payment in cash</option>
+                                                <option value="InternetBanking">InternetBanking</option>
+                                                <option value="VisaCard">VisaCard</option>
+                                                <option value="Paypal">Paypal</option>
+                                            </select></div>
+                                </div>
+                            </div>
+            
+                        </div>
+                        <div class="form-group"><i class="fas fa-map-marked"></i><label for="from-comments"> Address</label><textarea class="form-control" id="address" name="address" placeholder="Enter Your Address" rows="5"></textarea></div>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
+                                <div class="col"><button class="btn btn-primary btn-block" type="submit"  value="Send" onclick="Ordering()">Order<i class="fa fa-chevron-circle-right"></i></button></div>
+                            </div>
+                        </div>
+                        <hr class="d-flex d-md-none">
+                        </form>
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+                        <h2 class="h4"><i class="fa fa-location-arrow"></i> Locate Us</h2>
+                        <div class="form-row">
+                            <div class="col-12">
+                                <div class="static-map"><a rel="noopener" href="https://www.google.com/maps/place/VNUK+Institute+for+Research+and+Executive+Education,+the+University+of+Danang/@16.071074,108.2181047,17z/data=!3m1!4b1!4m5!3m4!1s0x31421836b5f0b5d5:0xf372c18deace6db!8m2!3d16.0710689!4d108.2202934"
+                                        target="_blank"> <img class="img-fluid" src="./assets/img/ggmap.jpg" alt="Google Map of Masterchef"></a></div>
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <h2 class="h4"><i class="fa fa-user"></i> Our Info</h2>
+                                <div><span><strong>Chien</strong><br></span></div>
+                                <div><span>thanhcongchien.email@awebsite.com</span></div>
+                                <div><span>www.masterchef.com</span></div>
+                                <hr class="d-sm-none d-md-block d-lg-none">
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
+                                <div><span><strong>VNUK</strong></span></div>
+                                <div><span>158A Le Loi Street</span></div>
+                                <div><span>Hai Chau Dist, Da Nang City</span></div>
+                                <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                                <hr class="d-sm-none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+</form>
+    <div class="article-list" id="article-list" style="display: none;">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center"><br><em>Post Type Archives:&nbsp;Testimonials</em><br></h2>
+            </div>
+            <div class="row articles">
+                <div class="col-sm-6 col-md-4 item"><a  onclick="window.open('https://www.facebook.com/chienheo293/')"><img class="img-fluid" src="assets/img/best-sandwich-in-da-nang.jpg"></a>
+                    <h3 class="name"><a href="https://broskafe.com/testimonial/lauren-s-the-best-quality-coffee-and-sandwich-in-da-nang/"><em>Lauren S.</em></a><br></h3>
+                    <p class="description">“Wow. Just wow. The best quality, price, and service hands down!” I have been a regular at Bro’s for about 8 months now and the quality and price have always been consistent. The owners are the nicest and most accommodating people.
+                        I can’t say enough good things about this place. My favourite is the BLAT […]<br><br></p><a class="action" onclick="window.open('https://www.facebook.com/chienheo293/')"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"><a href="https://www.facebook.com/chienheo293/"><img class="img-fluid" src="assets/img/BLAT-sandwich-review.png"></a>
+                    <h3 class="name"><a href="https://broskafe.com/testimonial/reginald-williams-blat-sandwich/"><em>Reginald Williams</em></a><br></h3>
+                    <p class="description">I had the BLAT sandwich, a hearty breakfast sandwich with bacon, lettuce, tomato, avocado and Swiss cheese on whole wheat toast. It was absolutely delicious. All ingredients were extremely fresh and the bacon was better quality bacon
+                        then most anywhere I’ve been in Danang. The seating is a bit of a bohemian mix of antiques […]<br><br></p><a class="action"  onclick="window.open('https://www.facebook.com/chienheo293/')"><i class="fa fa-arrow-circle-right"></i></a></div>
+                <div class="col-sm-6 col-md-4 item"><a  onclick="window.open('https://www.facebook.com/chienheo293/')"><img class="img-fluid" src="assets/img/img/delivery-in-danang-600x450.jpg"></a>
+                    <h3 class="name"><a href="https://broskafe.com/testimonial/phil-manire/"><em>Phil Manire</em></a><br></h3>
+                    <p class="description">Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, interdum justo suscipit id.</p><a class="action"  onclick="window.open('https://www.facebook.com/chienheo293/')"><i class="fa fa-arrow-circle-right"></i></a></div>
+            </div>
+        </div>
+    </div>
+    <div class="projects-horizontal menu-list" id="menu-list" style="display: none;" >
+        <div class="container menu">
+            <div class="intro">
+                <h2 class="text-center">Menu</h2>
+                <p class="text-center">Welcome to Master Chef</p>
+            </div>
+            <h3>SANDWICHES</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/sandwiches/hamsandwiches.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Ham Sandwich<br></h3>
+                            <h3 class="price">₫45,000<br></h3>
+                            <h5 class="description">Bacon/Ham - Lettuce - Tomato - Cheese - Homemade Mayonnaise<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/sandwiches/blatjpg.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">BLAT Sandwich
+                                <br></h3>
+                            <h3 class="price">₫54,000<br></h3>
+                            <h5 class="description">Bacon - Lettuce - Avocado - Tomato<br></h5>
+
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/sandwiches/avocado.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="price">Avocado Toast
+                                <br></h3>
+                            <h3 class="name">₫25,000<br></h3>
+                            <h5 class="description">Avocado - Peanut Butter<br></h5>
+
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/sandwiches/eggjpg.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Egg Benedict on Sandwich
+                                <br></h3>
+                            <h3 class="price">₫69,000<br></h3>
+                            <h5 class="description">Bacon - Egg - avocado<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h3>SALAD</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/regular_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Regular Salad<br></h3>
+                            <h3 class="price">₫33,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/bacon_egg_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Bacon Egg Salad<br></h3>
+                            <h3 class="price">₫55,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/fantasy_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="price">Fantasy Salad<br></h3>
+                            <h3 class="name">₫49,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/tuna_salaf.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Tunna Salad<br></h3>
+                            <h3 class="price">₫55,000<br></h3>
+                            <h5 class="description">Tuna Regular SaladCress<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>Bagutte</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/bacon_egg_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Mecury Bagutte<br></h3>
+                            <h3 class="price">₫55,000<br></h3>
+                            <h5 class="description">Egg Blue Cheese Tomato Lettuce<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/bacon_egg_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Mecury Bagutte<br></h3>
+                            <h3 class="price">₫55,000<br></h3>
+                            <h5 class="description">Egg Blue Cheese Tomato Lettuce<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/regular_salad.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Chicken Bagutte<br></h3>
+                            <h3 class="price">₫59,000<br></h3>
+                            <h5 class="description">Chicken Mushroom White onion Cheese<br></h5>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>COFFEE</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/capuchino.png"></a></div>
+                        <div class="col">
+                            <h3 class="name">Cappuccino<br></h3>
+                            <h3 class="price">₫38,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/americano.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Americano<br></h3>
+                            <h3 class="price">₫22,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/machiato.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Machiato<br></h3>
+                            <h3 class="price">₫38,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h3>BEER</h3>
+            <hr>
+            <div class="row projects">
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/bubwiser.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Bubweiser<br></h3>
+                            <h3 class="price">₫15,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img  class="img-fluid" src="assets/img/strongbow.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Strongbow<br></h3>
+                            <h3 class="price">₫25,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/tiger.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Tiger<br></h3>
+                            <h3 class="price">₫20,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 item">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-5"><a href=""><img class="img-fluid" src="assets/img/heniken.jpg"></a></div>
+                        <div class="col">
+                            <h3 class="name">Heniken<br></h3>
+                            <h3 class="price">₫20,000<br></h3>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid mt-5 mb-5" id="delivery-menu" style="display: none;">
+        <div class="container product">
+            <div class="h2 mb-5">MENU </div>
+
+            <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+                <div class="input-group">
+                    <input class="form-control" id="myInput" type="text" placeholder="Search..." aria-label="Search" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-primary" style="width: 40px; margin-top: 10px;" type="button"><svg class="svg-inline--fa fa-search fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg><!-- <i class="fas fa-search"></i> --></button>
+                    </div>
+                </div>
+            </form><br><br><br>
+            <div class="h4 mb-5"><i class="fas fa-hamburger"></i> FOODS</div>
+
+            <div class="row" id="add-menu">
+
+            </div>
+
+            <br>
+            <br>
+            <div class="h4 mb-5"><i class="fas fa-coffee"></i> DRINKS</div>
+
+            <div class="row" id="add-menu2">
+
+            </div>
+            
+        </div>
+    
+    </div>
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <!-- <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div> -->
+        <div class="modal-body">
+            <div  id="book-form" class="contact-clean book-form1" >
+                <form   id="contact-form" method="POST" action="https://formspree.io/chien.thanh180201@vnuk.edu.vn" >
+                    <h2 class="text-center">BOOKING</h2>
+                    <hr id="hr" style="background-color:#c3bfbf;">
+        
+                        <!--https://formspree.io/FORM_ID-->
+                    <div class="form-row">  
+                        <div class="col-10 col-sm-10 col-md-8 offset-1 offset-sm-1 offset-md-2">
+                            <p style="font-family:Armata, sans-serif;font-size:22px; color: #495057;">Name:</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-10 col-sm-10 col-md-8 offset-1 offset-sm-1 offset-md-2"><input class="form-control" id="name" type="text" style="font-size:15px;font-family:Armata, sans-serif;" placeholder="Please enter your Name" name="name" required></div>
+                    </div>
+        
+                    <div class="form-row">
+                        <div class="col-10 col-sm-10 col-md-8 offset-1 offset-sm-1 offset-md-2">
+                            <p style="font-family:Armata, sans-serif;font-size:22px; color:#495057;">Email:</p>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-10 col-sm-10 col-md-8 offset-1 offset-sm-1 offset-md-2"><input class="form-control " id="email" type="email" placeholder="Please enter your Email" name="email" name="_replyto" required></div>
+                    </div>
+                    <!-- <div class="form-row">
+                        <div class="col-9 col-sm-5 col-md-4 offset-1 offset-sm-4 offset-md-5"><button class="btn btn-warning" style="font-family:Armata, sans-serif;font-size:14px;color:rgb(0,0,0);" type="reset">Reset </button><button class="btn btn-success" id="submit-btn" style="font-family:Armata, sans-serif;font-size:14px;color:rgb(0,0,0);"
+                                type="submit">Send </button></div>
+                    </div> -->
+                    <i class="fa fa-hand-paper-o"></i>
+                    <select class="form-control order-later-people" id="people"><optgroup label="People"><option value="1" selected="">1 people</option><option value="2">2 people</option><option value="3">3 people</option></optgroup></select>
+                    <i class="fa fa-calendar-times-o"></i>
+                    <select class="form-control order-later-date" id="date"><optgroup label="Date"><option  value="Monday" selected="">Monday</option><option value="Saturday" selected="">Saturday</option><option value="Sunday">Sunday</option></optgroup></select>
+                        <i class="fa fa-clock-o"></i>
+                    <select class="form-control order-later-time" id="time"><optgroup label="Time"><option  value="8:00 a.m" selected="">8:00 a.m</option><option value="1:00 p.m">1:00 p.m</option><option value="8:00 p.m">8:00 p.m</option></optgroup></select>
+
+                    <div
+                         class="form-group"><i class="fas fa-comment-alt"></i><textarea class="form-control" id="mess" name="message" placeholder="Message ( If you have any questions or comments, please let us know)"  rows="14"></textarea></div>
+                         <div class="form-row">
+                        </div>
+            <div class="form-group"><button  class="btn btn-primary" value="Send" type="submit" onclick="Booking()">BOOK</button></div>
+            </form>
+            </div>   
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+        </div>
+      </div>
+    
+
+</div>
+    </div>
+    <br>
+
+
+    <div>
+        <div class="container-fluid delivery-form" id="delivery-form" style="display: none;">
+            <h2 style="text-align: center;">Contact Information</h2>
+            <hr>
+            <form id="contactForm" action="https://formspree.io/thnhcngchin@gmail.com"  method="POST"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden"
+                    name="to" value="email@awebsite.com">
+                <div class="form-row">
+                    <div class="col-md-6">
+                        <div id="successfail"></div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <form id="delivery-form-email" method="POST" action="https://formspree.io/thnhcngchin@gmail.com" >
+
+                    <div class="col-12 col-md-6" id="message">
+                        <h2 class="h4"><i class="fas fa-utensil-spoon"></i>Masterchef</h2>
+
+                        <div class="form-group"><label for="from-name" >Name</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-user-o"></i></span></div><input class="form-control"  type="text" id="fullname" name="name"   required  placeholder="Full Name"></div>
+                        </div>
+                        <div class="form-group"><label for="from-email">Email</label><span class="required-input">*</span>
+                            <div class="input-group">
+                                <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-envelope-o"></i></span></div><input class="form-control" type="text" id="emailaddress" name="email" name="_replyto" required  placeholder="Email Address"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-phone">Phone</label><span class="required-input">*</span>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-phone"></i></span></div><input class="form-control" type="text" id="phone" name="phone" required  placeholder="Primary Phone"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                                <div class="form-group"><label for="from-calltime">Best Time to Call</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend"><span class="input-group-text"><i class="fa fa-clock-o"></i></span></div><select class="form-control" id="calltime" name="call time"><optgroup label="Best Time to Call"><option value="Morning" selected="">Morning</option><option value="Afternoon">Afternoon</option><option value="Evening">Evening</option></optgroup></select></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group"><label for="from-comments">Comments</label><textarea class="form-control" id="comments" name="comments" placeholder="Enter Comments" rows="5"></textarea></div>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col"><button class="btn btn-primary btn-block" type="reset"><i class="fa fa-undo"></i> Reset</button></div>
+                                <div class="col"><button class="btn btn-primary btn-block" type="submit"  value="Send" onclick="Ordering()">Order<i class="fa fa-chevron-circle-right"></i></button></div>
+                            </div>
+                        </div>
+                        <hr class="d-flex d-md-none">
+                        </form>
+                    </div>
+
+
+                    <div class="col-12 col-md-6">
+                        <h2 class="h4"><i class="fa fa-location-arrow"></i> Locate Us</h2>
+                        <div class="form-row">
+                            <div class="col-12">
+                                <div class="static-map"><a rel="noopener" href="https://www.google.com/maps/place/VNUK+Institute+for+Research+and+Executive+Education,+the+University+of+Danang/@16.071074,108.2181047,17z/data=!3m1!4b1!4m5!3m4!1s0x31421836b5f0b5d5:0xf372c18deace6db!8m2!3d16.0710689!4d108.2202934"
+                                        target="_blank"> <img class="img-fluid" src="./assets/img/ggmap.jpg" alt="Google Map of Masterchef"></a></div>
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <h2 class="h4"><i class="fa fa-user"></i> Our Info</h2>
+                                <div><span><strong>Chien</strong><br></span></div>
+                                <div><span>thanhcongchien.email@awebsite.com</span></div>
+                                <div><span>www.masterchef.com</span></div>
+                                <hr class="d-sm-none d-md-block d-lg-none">
+                            </div>
+                            <div class="col-sm-6 col-md-12 col-lg-6">
+                                <h2 class="h4"><i class="fa fa-location-arrow"></i> Our Address</h2>
+                                <div><span><strong>VNUK</strong></span></div>
+                                <div><span>158A Le Loi Street</span></div>
+                                <div><span>Hai Chau Dist, Da Nang City</span></div>
+                                <div><abbr data-toggle="tooltip" data-placement="top" title="Office Phone: 555-867-5309">O:</abbr> 555-867-5309</div>
+                                <hr class="d-sm-none">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="highlight-phone" id="highlight-phone" >
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="intro">
+                        <h2><em>Food Delivery in Da Nang</em><br></h2>
+                        <h2  class="glf-card-subtitle subtitle" style="font-size: 18px;    font-weight: 600;     color: #f09c48;">FREE DELIVERY WITHIN 3KM RADIUS DURING COVID-19                         <span class="glf-card-subtitle-dash"></span>
+                            <br></h2>
+                        <p><br>During the pandemic Covid-19, we offer Free Delivery within the radius of 3km<br><br>Looking for food delivery nearby? Not everybody knows or has the time to prepare tasty food.<br><br>When you want to get served like a king
+                            then food delivery from Bros Kafe will be your best choice.<br><br>Simply select "Delivery" at the checkout screen and we hope you'll appreciate our food delivery service.<br><br><br></p>
+                    </div>
+                </div>
+                <div class="col-sm-4"><img src="assets/img/delivery-in-danang-600x450.jpg" style="width: 200%;height: 100%; padding-right: 250px;"></div>
+            </div>
+        </div>
+        <div class="container glf-gallery" id= "galley-1">
+            <h1 id="gallery-header" class="container-gallery"><br><em>Various kinds of Coffee - Smoothie - Sandwich - Salad</em><br></h1>
+            <p id="subtitle" class="subtitle"><br><strong>FREE DELIVERY WITHIN 3KM RADIUS DURING COVID-19</strong><br></p>
+            <div class="row">
+                <div class="col order-md-3">
+                    <div class=" card  glf-gallery-image" id="div1" ><a href="assets/img/img/Gallery_img/Bros-Kafe-client.jpg"></a><img class="img-fluid coconut-conffee" src="assets/img/img/Gallery_img/Bros-Kafe-client.jpg">
+                    <div>Client</div>
+                    </div>
+                </div>
+                <div class="col order-md-3 ">
+                    <div class="card  glf-gallery-image" id="div2" ><a href="assets/img/img/Gallery_img/Bros-Kafe-client.jpg"><img class="img-fluid client" src="assets/img/img/Gallery_img/Bros-Kafe-client.jpg">
+                        <div>Client</div></a></div>
+                 </div>
+         <div class="col order-md-3  ">
+                    <div class="card  glf-gallery-image" id="div3" ><a href="assets/img/img/Gallery_img/Coconut-Coffee.jpg"><img class="img-fluid coconut-conffee" src="assets/img/img/Gallery_img/Coconut-Coffee.jpg">
+                    <div>Coconut Coffee</div></a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col order-md-3 ">
+                    <div class="card  glf-gallery-image" id="div4"><a href="assets/img/img/Gallery_img/Elvis-Baguette.jpg"><img class="img-fluid" src="assets/img/img/Gallery_img/Elvis-Baguette.jpg">
+                    <div>Elvis Bagutte</div></a></div>
+                </div>
+                <div class="col order-md-3  ">
+                    <div class="card  glf-gallery-image" id="div5"><a href="assets/img/img/Gallery_img/Grilled-Omelette.jpg"><img class="img-fluid" src="assets/img/img/Gallery_img/Grilled-Omelette.jpg">
+                    <div>Grilled Omelette</div></a></div>
+                </div>
+                <div class="col order-md-3 ">
+                    <div class="card glf-gallery-image" id="div6"><a href="assets/img/img/Gallery_img/Bat-xiu.jpg"><img class="img-fluid" src="assets/img/img/Gallery_img/Bat-xiu.jpg">
+                    <div>Bat Xiu</div></a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col order-md-3  ">
+                    <div class="card  glf-gallery-image" id="div7"><a href="assets/img/img/Smashed-Avocado.jpg"><img class="img-fluid" src="assets/img/img/Smashed-Avocado.jpg">
+                    <div>Smashed</div></a></div>
+                </div>
+                <div class="col order-md-3  ">
+                    <div class="card  glf-gallery-image" id="div8"><a href="assets/img/img/Bacon-Egg-Rings.jpg"><img class="img-fluid baccon-egg-rings" src="assets/img/img/Bacon-Egg-Rings.jpg">
+                    <div>Bacon Egg  Rings</div></a></div>
+                </div>
+                <div class="col order-md-3  ">
+                    <div class="card  glf-gallery-image" id="div9"><a href="assets/img/img/youjeen-cho-sBKLiRiunK0-unsplash.jpg"><img class="img-fluid" src="assets/img/img/youjeen-cho-sBKLiRiunK0-unsplash.jpg">
+                    <div>Uplash</div></a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col order-md-3  ">
+                    <div class="card  glf-gallery-image" id="div10"><a href="assets/img/img/Gallery_img/Coconut-Coffee.jpg"><img class="img-fluid" src="assets/img/img/Gallery_img/Coconut-Coffee.jpg">
+                    <div>Coconut Coffee</div></a></div>
+                </div>
+                <div class="col order-md-3 ">
+                    <div class="card  glf-gallery-image" id="div11"><a href="assets/img/img/Gallery_img/Coconut-Coffee.jpg"><img class="img-fluid" src="assets/img/img/Gallery_img/Coconut-Coffee.jpg">
+                    <div>Coconut Coffee</div></a></div>
+                </div>
+                <div class="col order-md-3  ">
+                    <div class="card  glf-gallery-image" id="div12"><a href="assets/img/img/Smashed-Avocado.jpg"><img class="img-fluid" src="assets/img/img/Smashed-Avocado.jpg">
+                    <div>Smashed Avocado</div></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        
+    <div class="container-fluid videos" id="videos">
+        <div class="container video-ads">
+            <video width="100%" height="100%" controls>
+                <source src="assets/video/Bro's Kafe - One of Top places for Expats in Da Nang.mp4">
+            </video>
+        </div>
+    </div>
+
+
+      <!--review form client-->
+<div class="container-fluid glf-background-card"><div id="text-7" class="container glf-card">
+    <div class="widget widget_text"><h2>Reviews</h2>			<div class="textwidget"><div class="wp-gr wpac">    <div class="wp-google-list">        <div class="wp-google-place">                <div class="wp-google-left">        <img src="https://maps.gstatic.com/mapfiles/place_api/icons/restaurant-71.png" alt="Bro's Kafe" width="50" height="50" title="Bro's Kafe">    </div>    <div class="wp-google-right">        <div class="wp-google-name">            <a href="https://www.google.com/maps/place/VNUK+Institute+for+Research+and+Executive+Education,+the+University+of+Danang/@16.071074,108.2181047,17z/data=!4m12!1m6!3m5!1s0x31421836b5f0b5d5:0xf372c18deace6db!2sVNUK+Institute+for+Research+and+Executive+Education,+the+University+of+Danang!8m2!3d16.0710689!4d108.2202934!3m4!1s0x31421836b5f0b5d5:0xf372c18deace6db!8m2!3d16.0710689!4d108.2202934" target="_blank" rel="nofollow noopener noreferrer"><span>Master Chef</span></a>        </div>        <div>            <span class="wp-google-rating">4.8</span>            <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1250 957l257-250-356-52-66-10-30-60-159-322v963l59 31 318 168-60-355-12-66zm452-262l-363 354 86 500q5 33-6 51.5t-34 18.5q-17 0-40-12l-449-236-449 236q-23 12-40 12-23 0-34-18.5t-6-51.5l86-500-364-354q-32-32-23-59.5t54-34.5l502-73 225-455q20-41 49-41 28 0 49 41l225 455 502 73q45 7 54 34.5t-24 59.5z" fill="#e7711b"></path></svg></span></span></span>        </div>                        <div class="wp-google-powered">            <img src="https://broskafe.com/wp-content/plugins/widget-google-reviews/static/img/powered_by_google_on_white.png" alt="powered by Google" width="144" height="18" title="powered by Google">        </div>            </div>            </div>                <div class="wp-google-content-inner">                <div class="wp-google-reviews">            <div class="wp-google-review">            <div class="wp-google-left">                <img src="https://lh6.ggpht.com/-Ek3M7DGkOxs/AAAAAAAAAAI/AAAAAAAAAAA/rqYbfRNY4Rk/s50-c0x00000000-cc-rp-mo-ba4/photo.jpg" class="rplg-review-avatar rplg-blazy b-loaded" alt="David Kuehl" width="50" height="50" title="David Kuehl" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/115524956234873550686/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">David Kuehl</a>                <div class="wp-google-time" data-time="1595056040">14 days ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1201 1004l306-297-422-62-189-382-189 382-422 62 306 297-73 421 378-199 377 199zm527-357q0 22-26 48l-363 354 86 500q1 7 1 20 0 50-41 50-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#ccc"></path></svg></span></span></span>                    <span class="wp-google-text">Nice western options at decent prices. My dish was underseasoned though.</span>                </div>                            </div>        </div>                <div class="wp-google-review">            <div class="wp-google-left">                <img src="https://lh6.ggpht.com/-_Uafe84vS4c/AAAAAAAAAAI/AAAAAAAAAAA/SJJIrAjPe78/s50-c0x00000000-cc-rp-mo-ba2/photo.jpg" class="rplg-review-avatar rplg-blazy b-loaded" alt="Aimee Van Dyk" width="50" height="50" title="Aimee Van Dyk" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/116372923450248347460/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Aimee Van Dyk</a>                <div class="wp-google-time" data-time="1592471415">a month ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">My favourite cafe in Da Nang! Great food &amp; smoothies at very reasonable prices. The owners are also lovely 
+        <img draggable="false" role="img" class="emoji" alt="👍" ><img draggable="false" role="img" class="emoji" alt="👍" >
+    </span>                </div>                            </div>        </div>                <div class="wp-google-review">  
+                  <div class="wp-google-left">     
+                                 <img src="https://lh4.ggpht.com/-XpYu3nW7oUs/AAAAAAAAAAI/AAAAAAAAAAA/ug-o2j-fYPA/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy b-loaded" alt="Evelina Graciova" width="50" height="50" title="Evelina Graciova" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/114786458938582357489/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Evelina Graciova</a>                <div class="wp-google-time" data-time="1592235031">a month ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">Delicious food! Best place for breakfast and salads! Also, they have good coffee and nice atmosphere!</span>  <span id="dot">...</span>         </div>                            </div>   <div id= "more" style="display: none;">    </div>                <div class="wp-google-review">             <div class="wp-google-left">                <img src="https://lh3.ggpht.com/-T-cAkCNF36w/AAAAAAAAAAI/AAAAAAAAAAA/GjMyOT4sLPw/s50-c0x00000000-cc-rp-mo-ba8/photo.jpg" class="rplg-review-avatar rplg-blazy b-loaded" alt="Ak" width="50" height="50" title="Ak" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/102873738934801008402/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Ak</a>  
+                                                  <div class="wp-google-time" data-time="1590316426">2 months ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">Nice place to to come for brunch. Very good baguettes, croissants, coffee, etc. good service as well.</span>                </div>                            </div>        
+                                                </div>                <div class="wp-google-review">            <div class="wp-google-left">                <img src="https://lh3.ggpht.com/-PRTslMkV1fA/AAAAAAAAAAI/AAAAAAAAAAA/8isVIZ1FwmQ/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy b-loaded" alt="Gary Ngo" width="50" height="50" title="Gary Ngo" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/118150143466479142700/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Gary Ngo</a>                <div class="wp-google-time" data-time="1589016701">3 months ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">Ordered from Grab multiple times. It has great western sized portions at reasonable prices. I love this place.</span>                </div>                            </div>        </div>                <div class="wp-google-review wp-google-hide">            <div class="wp-google-left">                <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh3.ggpht.com/-eZBj_WMYLvU/AAAAAAAAAAI/AAAAAAAAAAA/bEJmAd8YUo8/s50-c0x00000000-cc-rp-mo-ba3/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Matthew Cannon" width="50" height="50" title="Matthew Cannon" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/112581282860390829767/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Matthew Cannon</a>                <div class="wp-google-time" data-time="1583115256">5 months ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">This place is cheap, fast, and has quality food. I would recommend anyone come here looking to get work done, or to<span>... </span><span class="wp-more"> grab a bite to eat. I had the banana toast, a coffee, and orange juice.</span><span class="wp-more-toggle">read more</span></span>                </div>                            </div>        </div>                <div class="wp-google-review wp-google-hide">            <div class="wp-google-left">                <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh6.ggpht.com/-V977Mzu60D4/AAAAAAAAAAI/AAAAAAAAAAA/f7FTDgw4SIk/s50-c0x00000000-cc-rp-mo-ba5/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Reginald Williams" width="50" height="50" title="Reginald Williams" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>  
+                                                          <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/103415913869403483962/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Reginald Williams</a>                <div class="wp-google-time" data-time="1579869642">6 months ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">I had the BLAT sandwich, a hearty breakfast sandwich with bacon, lettuce, tomato, avocado and Swiss cheese on whole<span>... </span><span class="wp-more"> wheat toast. It was absolutely delicious. All ingredients were extremely fresh and the bacon was better quality bacon then most anywhere I’ve been in Danang. The seating is a bit of a bohemian mix of antiques and older used furniture. The ambience could also be described as laid back and bohemian while the service was quick, friendly and efficient. Absolutely recommended. I’ll definitely be back.</span><span class="wp-more-toggle">read more</span></span>                </div>  
+                                                                                  </div>        </div>                <div class="wp-google-review wp-google-hide">            <div class="wp-google-left">                <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh3.ggpht.com/-MBamoswuIAo/AAAAAAAAAAI/AAAAAAAAAAA/FO5hTD1tSAQ/s50-c0x00000000-cc-rp-mo-ba3/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Laura Hardy" width="50" height="50" title="Laura Hardy" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/118135998634780489802/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Laura Hardy</a>                <div class="wp-google-time" data-time="1578636442">7 months ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">Will definitely be back. Service is the best, friendly and fast. Price is good value. Cool vibe. We had the hollandaise<span>... </span><span class="wp-more"> chicken sandwich</span><span class="wp-more-toggle">read more</span></span>                </div>                            </div>        </div>                <div class="wp-google-review wp-google-hide">            <div class="wp-google-left">                <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh6.ggpht.com/-DX3UK8OPyJM/AAAAAAAAAAI/AAAAAAAAAAA/2D0pKydJeOw/s50-c0x00000000-cc-rp-mo/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Vy Nguyễn" width="50" height="50" title="Vy Nguyễn" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/114222240438739452332/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Vy Nguyễn</a>                <div class="wp-google-time" data-time="1572754594">9 months ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">There is the great place for eating and relaxing with friends. Foods are so yummy , drinks are also nice. The place is<span>... </span><span class="wp-more"> so so idealise for taking pictures. The staffs are so friendly and the owners are really handsome and kindhearted.The special are  COCONUT COFFEE and EGG COFFEE, i really really love them <img draggable="false" role="img" class="emoji" alt="❤️" "><img draggable="false" role="img" class="emoji" alt="❤️" ></span><span class="wp-more-toggle">read more</span></span>                </div>                            </div>        </div>                <div class="wp-google-review wp-google-hide">            <div class="wp-google-left">                <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh5.ggpht.com/-mQMHN5QrkMk/AAAAAAAAAAI/AAAAAAAAAAA/rHpE7D0xZiw/s50-c0x00000000-cc-rp-mo-ba5/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Nhu Ngoc Nguyen" width="50" height="50" title="Nhu Ngoc Nguyen" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/105659162745992335843/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Nhu Ngoc Nguyen</a>                <div class="wp-google-time" data-time="1570008982">10 months ago</div> 
+                                                                                                 <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">The menu is a bit confused at first but we finally got through them (3 different menu but looked similar were<span>... </span><span class="wp-more"> presented).The Egg Benedict was so juicy and tasty. I think this was one of the best I've ever tasted. It was same same but different, not sure how to describe it exactly. Other food was also got really nice feedback from my friends. Each portion was big so I think the price is reasonable. I love the decoration. 1 minus (but the food was too good that I wanted to rate 5* for this restaurant) was the service from the staff. Little improvement on their attitude may help, I think. DN, 29/09/2019</span><span class="wp-more-toggle">read more</span></span>                </div>                            </div>        </div>                <div class="wp-google-review wp-google-hide">            <div class="wp-google-left">                <img src="https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg" data-src="https://lh5.ggpht.com/-M0FsAqNSvmA/AAAAAAAAAAI/AAAAAAAAAAA/NGwQ5K4uf1g/s50-c0x00000000-cc-rp-mo-ba4/photo.jpg" class="rplg-review-avatar rplg-blazy" alt="Bradman McCarthy" width="50" height="50" title="Bradman McCarthy" onerror="if(this.src!='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg')this.src='https://lh3.googleusercontent.com/-8hepWJzFXpE/AAAAAAAAAAI/AAAAAAAAAAA/I80WzYfIxCQ/s50-c/114307615494839964028.jpg';">            </div>            <div class="wp-google-right">                <a href="https://www.google.com/maps/contrib/114379002592003217473/reviews" class="wp-google-name" target="_blank" rel="nofollow noopener noreferrer">Bradman McCarthy</a>                <div class="wp-google-time" data-time="1552104420">a year ago</div>                <div class="wp-google-feedback">                    <span class="wp-google-stars"><span class="wp-stars"><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span><span class="wp-star"><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="17" height="17" viewBox="0 0 1792 1792"><path d="M1728 647q0 22-26 48l-363 354 86 500q1 7 1 20 0 21-10.5 35.5t-30.5 14.5q-19 0-40-12l-449-236-449 236q-22 12-40 12-21 0-31.5-14.5t-10.5-35.5q0-6 2-20l86-500-364-354q-25-27-25-48 0-37 56-46l502-73 225-455q19-41 49-41t49 41l225 455 502 73q56 9 56 46z" fill="#e7711b"></path></svg></span></span></span>                    <span class="wp-google-text">A great little cafe. It has really nice food options that are very cheap (around 50k) and healthy smoothies with no<span>... </span><span class="wp-more"> added sugar. Highly recommend.</span><span class="wp-more-toggle">read more</span></span>                </div>                            </div>        </div>          </div>  </div>        <a class="wp-google-url" id="nextreview" onlick="NextReview()" href="" onclick="return rplg_next_reviews.call(this, 'google', 5);">        Next Reviews    </a>            </div>            </div></div>
+</div>
+		</div></div></div>
+
+
+      
+
+
+
+    
+    <!-- <audio controls autoplay id="audio" style="width: 100px; height: 30px;"  >
+        <source src="assets/mp3/HotelCalifornia-Eagles_wgdy.mp3" type="audio/mpeg">
+      </audio> -->
+
+
+    <div class="footer-clean" id="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        
+                        <h2> <a href="tel:0779439284"></a><em>MasterChef</em><br></h2>
+                        <ul>
+                            <li><a href="tel:0779439284"><h3><em>Kitchen for Expats</em> </h3>
+                                </a></li>
+                            <li><a target="_blank" href="https://www.google.com/maps/place/172+Tr%E1%BA%A7n+Cao+V%C3%A2n,+Tam+Thu%E1%BA%ADn,+Thanh+Kh%C3%AA,+%C4%90%C3%A0+N%E1%BA%B5ng+550000,+Vietnam/@16.0723788,108.205202,17z/data=!3m1!4b1!4m5!3m4!1s0x3142184ec811fb9d:0x870beb914f1b0d24!8m2!3d16.0723737!4d108.2073907">
+                                 <h7>Địa chỉ: 172 Trần Cao Vân - Thanh Khê - Đà Nẵng</h7><br><br></a></li>
+                            <li><a href="tel:0779439284">   <h7>Phone : 0779439284</h7></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item" >
+                        <h3><em>About us</em><br></h3>
+                        <ul>
+                            <li><a href=""><br>- Bro's Kafe was founded in June 2018 by 2 Bros sharing the same passion of opening a rendezvous spot for expats in Da Nang City. - Bro's Kafe serves Specialty Coffee 100% from coffee beans with honey-red processed. - Bro's Kafe is also well-known for good sandwiches, baguette, croissant and salad that have good value for quality and casual price. - Bro's Kafe is the first coffeeshop in Da Nang that serve Green Smoothie from spinach and fresh fruits - Bro's Kafe cooperate with Bellany Ice Cream to provide high quality ice-cream with many amazing flavour such as sorbet, salted caramel Bro's Kafe is proving that high value can be made from the simple. That's why Bro's Kafe is ranked one of the Top coffeeshop for expats in Da NangFANPAGE CHÚNG TÔI<br><br><br></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3><em>Contact Us</em><br></h3>
+                        <ul>
+                            <li><br>(8:30 a.m - 10:00 p.m)<br><br>
+                                <a href="tel:0779439284"><em>0779 439 284</em><br></a></li>
+                            <li><br><a href="mailto:chien.thanh180201@vnuk.edu.vn"><em>chien.thanh180201@vnuk.edu.vn</em></a></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-md-3 item social"><a href="https://www.facebook.com/chienheo293/" target="_blank"><i class="icon ion-social-facebook"  ></i></a><a href="https://twitter.com/?lang=en" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/" target="_blank"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/" target="_blank"><i class="icon ion-social-instagram"></i></a>
+                    
+                            <div class="col-lg-3 col-sm-4 col-md-3 item fb-page" data-href="https://www.facebook.com/BOT-103679947827016/" data-tabs="timeline"
+                            data-width="360" data-height="200" data-small-header="false"
+                            data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                            <blockquote cite="https://www.facebook.com/BOT-103679947827016/" class="fb-xfbml-parse-ignore"><a
+                                    href="https://www.facebook.com/BOT-103679947827016/">Master Chef +</a></blockquote>
+                        </div>
+                        <footer class="blockquote-footer">Fanpage</footer>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<!-- <script src="../assets/js/admin-booking.js"></script>
+<script src="../assets/js/booking.js"></script>
+<script src="../assets/js/admin-order.js"></script>
+<script src="../assets/js/order.js"></script> -->
+<script src="./assets/js/admin.js"></script>
+<script src="./assets/js/admin-drink.js"></script>
+<script src="./assets/js/product.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>  <!--using to send email-->
+<script src="./assets/js/jquery.min.js"></script>
+<script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="./assets/js/Contact-Form-v2-Modal--Full-with-Google-Map.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+
+</html>
